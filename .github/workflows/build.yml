@@ -85,17 +85,17 @@ jobs:
           # sed -i '' "s/opa334/w2599/g" ./Application/Dopamine/UI/Update/DOUpdateViewController.m
           # sed -i '' "s/opa334/w2599/g" ./Application/Dopamine/UI/DOUIManager.m
           
-       - name: Pre body
-         run: |
-           echo -e "：${{ env.newVERSION }}\n：${{ env.msT }}\n：${{ env.shT }}" >> body.txt
-           echo -e "\n：" >> body.txt
-           echo -e "${{ env.logT }}" >> body.txt
-           echo -e "> - .1" >> body.txt
-           echo -e "> - .2Nút Mount được thêm vào giao diện cài đặt ở phía dưới" >> body.txt
-           echo -e "> - . Tự động mount khi jailbreak /var/mobile/newFakePath_RH.plist thư mục bên trong" >> body.txt
-           echo -e "> - .3Sửa chữa và cập nhật các mã liên quan đến công cụ jailbreak" >> body.txt
-           echo -e "> - .4Thêm hiển thị thời gian khởi động" >> body.txt
-           echo -e "> - .5Thêm tắt thông báo cập nhật mới" >> body.txt
+       # - name: Pre body
+       #   run: |
+       #     echo -e "：${{ env.newVERSION }}\n：${{ env.msT }}\n：${{ env.shT }}" >> body.txt
+       #     echo -e "\n：" >> body.txt
+       #     echo -e "${{ env.logT }}" >> body.txt
+       #     echo -e "> - .1" >> body.txt
+       #     echo -e "> - .2Nút Mount được thêm vào giao diện cài đặt ở phía dưới" >> body.txt
+       #     echo -e "> - . Tự động mount khi jailbreak /var/mobile/newFakePath_RH.plist thư mục bên trong" >> body.txt
+       #     echo -e "> - .3Sửa chữa và cập nhật các mã liên quan đến công cụ jailbreak" >> body.txt
+       #     echo -e "> - .4Thêm hiển thị thời gian khởi động" >> body.txt
+       #     echo -e "> - .5Thêm tắt thông báo cập nhật mới" >> body.txt
           
       - name: Pre xcode-select
         run: |
