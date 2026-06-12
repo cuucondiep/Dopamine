@@ -8,7 +8,7 @@ env:
 
 jobs:
   build:
-    runs-on: macos-13
+    runs-on: macos-latest-xlarge
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -83,8 +83,8 @@ jobs:
       - name: Pre code
         run: |
           sed -i '' "s/AAAA/v${{ env.newVERSION }}  (WhiteList)/g" ./Application/Dopamine/UI/DOMainViewController.m
-          sed -i '' "s/AAAB/不要为了升级而放弃越狱的乐趣~/g" ./Application/Dopamine/UI/DOMainViewController.m
-          sed -i '' "s/AAAB/不要为了升级而放弃越狱的乐趣~/g" ./Application/Dopamine/UI/DOMainViewController.m
+          sed -i '' "s/AAAB//g" ./Application/Dopamine/UI/DOMainViewController.m
+          sed -i '' "s/AAAB//g" ./Application/Dopamine/UI/DOMainViewController.m
           sed -i '' "s/roothide\/Dopamine2-roothide/w2599\/Dopamine\/tree\/rh2.x_modify/g" ./Application/Dopamine/UI/Settings/DOCreditsViewController.m
           sed -i '' "s/roothide\/Dopamine2-roothide/w2599\/Dopamine/g" ./Application/Dopamine/UI/Update/DOUpdateViewController.m
           # sed -i '' "s/roothide\/Dopamine2-roothide/w2599\/Dopamine/g" ./Application/Dopamine/UI/DOUIManager.m
