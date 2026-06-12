@@ -115,3 +115,35 @@
 "Status_Title_Select_Package_Managers" = "Chọn trình quản lý gói";
 "Select_Package_Managers_Install_Message" = "Nếu bạn không biết nên nhấn vào lựa chọn nào, hãy chọn Sileo (sẽ không bao giờ có Cydia cho bạn chọn)";
 "Continue" = "Tiếp tục";
+
+"Enable dyld patch" = "Bật dyld ";
+"When spinlock fix is ​​enabled, app extensions of blacklisted apps will be disabled and may also cause spinlock panics when the blacklisted app is in foreground/background.\n\nYou can first try disabling tweak injection for the app in Choicy (spinlock fix still works), and only blacklist the app if that doesn't work." = "Khi bản sửa lỗi spinlock được bật, tiện ích mở rộng ứng dụng cho các ứng dụng nằm trong danh sách đen sẽ bị tắt và cũng có thể khiến spinlock gặp sự cố khi ứng dụng nằm trong danh sách đen ở nền trước/nền sau. \n\nTrước tiên, bạn có thể thử tắt tính năng chèn chỉnh sửa cho ứng dụng trong Choicey (bản sửa lỗi spinlock vẫn hoạt động) và nếu cách đó không hiệu quả, hãy thêm ứng dụng đó vào danh sách đen.";
+// mount 
+"Input_Mmount_Title" = "Mount";
+"Input_Unmount_Title" = "Quản lí Mount";
+"Input_Mount_Title" = "Nhập đường dẫn gốc";
+"Error_Mount_Body" = "Đường dẫn không tồn tại";
+"Select_Mount_Title" = "Chọn đường dẫn";
+"Button_Delete_Path_Only" = "Chỉ xóa đường dẫn";
+"Button_Delete" = "Xóa toàn bộ";
+"Button_View" = "Mở trong Filza";
+"Button_Mount" = "Xác nhận";
+
+"Input_Unmount_Title_B" = "Nhập đường dẫn";
+"Input_Unmount_Path" = "Nhập đường dẫn gốc";
+"Button_Unmount" = "Xác nhận";
+"System_Uptime_Format" = " %d Ngày %d giờ %d phút %d giây";
+
+"Dyld Patch(Spinlock Fix)" = "Dyld Patch（Khắc phục Spinlock）";
+
+"Initialize the whitelist system injection" = "Khởi tạo việc chèn hệ thống danh sách trắng";
+"Initialize the jetsam addend" = "Khởi tạo phần Jetsam";
+"Set roothide directory ownership" = "Cài đặt Quyền thư mục Roothide";
+"Applying the custom mount" = "Áp dụng đường dẫn Mount";
+"Not supported on iOS 15" = "Nhắc nhở: Do sự cố Spinlock khởi động lại ngẫu nhiên trong hệ thống iOS 15, nên không nên sử dụng danh sách trắng trong hệ thống iOS 15. Nếu bạn phải sử dụng nó trên iOS 15, trước tiên hãy bẻ khóa bằng phiên bản danh sách đen chính thức, sau đó chuyển sang phiên bản này.";
+
+
+"Section_Boot_Logo" = "Logo Khởi động";
+"Enabled" = "Bật";
+"Custom_Boot_Logo" = "Logo Tùy chỉnh";
+"Select_Image" = "Chọn ảnh";
